@@ -1,0 +1,19 @@
+.home{
+  background-image: url("https://media.giphy.com/media/BnPU5l27zAhmU/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#name{
+  font-size: 12em;
+  color: white;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.media{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0.5em;
+}
