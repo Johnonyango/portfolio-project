@@ -2,10 +2,11 @@
   background-image: url("https://media.giphy.com/media/BnPU5l27zAhmU/giphy.gif");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: -10em;
 }
 
 #name{
-  font-size: 12em;
+  font-size: 9.7em;
   color: white;
   font-family: fantasy;
   text-align: center;
@@ -16,4 +17,17 @@
   flex-direction: row;
   justify-content: space-around;
   padding: 0.5em;
+}
+
+.about{
+  float: right;
+}
+
+body{
+  font-size: large;
+}
+
+.swerve{
+  text-align: center;
+
 }
