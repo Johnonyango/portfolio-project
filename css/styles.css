@@ -41,3 +41,12 @@ h1,h2{
   margin-right: 8em;
   margin-bottom: 2em;
 }
+
+.list{
+  color:black;
+  text-decoration: none;
+
+}
+.list:hover{
+  background-color: salmon;
+}
