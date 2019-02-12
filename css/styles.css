@@ -7,14 +7,14 @@
 }
 
 #name{
-  font-size: 7em;
+  font-size: 2em;
   color: white;
   font-family: fantasy;
   text-align: center;
 }
 
 #defo{
-  font-size: 5em;
+  font-size: 1.2em;
   color: white;
   font-family: fantasy;
   text-align: center;
@@ -28,12 +28,8 @@
   border-top: 19em;
 }
 
-.about{
-  float: right;
-}
-
 body{
-  font-size:large;
+  font-size:small;
   font-family: Overlock;
   overflow-x: scroll;
   overflow-y: scroll;
@@ -49,25 +45,25 @@ h1,h2{
 
 .projects{
 display: flex;
-flex-direction: row;
+flex-direction: column;
 padding-top: 1.5em;
 }
 
 .one, .two, .three{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: auto;
+  align-items: center;
   padding: 1.3em;
   border: 1px solid silver;
-
 }
 
-.left{
+  .left{
   float: right;
 }
 
 .project{
-  width:13em;
+  width:350px;
 }
 
 .one:hover, .two:hover, .three:hover{
@@ -98,25 +94,28 @@ padding-top: 1.5em;
   margin-top: 1.2em;
 }
 
-@media only screen and(max-device-width:770px)
-                   and(min-device-width:400px){
-#name{
-  font-size:2em;
+@media only screen and (min-width: 770px){
+  .projects{
+    flex-direction: row;
+  }
+
+  .about{
+    float: right;
+  }
+
+  #name{
+  font-size:7em;
   }
 
   #defo{
-    font-size: 1.2em;
+    font-size: 5em;
   }
 
-  .projects{
-    flex-direction: column;
+  .one, .two, .three{
+    width: 30%;
   }
 
-  .project{
-    width:100%
-  }
-  
   body{
-    font-size: small
+    font-size: large;
   }
 }
