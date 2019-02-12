@@ -35,6 +35,8 @@
 body{
   font-size:large;
   font-family: Overlock;
+  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .swerve{
@@ -101,4 +103,11 @@ padding-top: 1.5em;
   text-align: center;
   font-size: 1em;
   margin-top: 1.2em;
+}
+
+@media only screen and(max-device-width:770px)
+                   and(min-device-width:400px){
+#name{
+  font-size:2em;
+  }
 }
